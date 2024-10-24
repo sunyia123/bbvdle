@@ -1,0 +1,18 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "typedef": [true,
+            "call-signature",
+            "parameter",
+            "property-declaration",
+            "member-variable-declaration"],
+        "max-classes-per-file": false,
+        "prefer-const": true,
+        "ban-types": [true, ["Object", "Use {} instead."], ["String"]]
+    },
+    "rulesDirectory": []
+}

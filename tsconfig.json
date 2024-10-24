@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": false,
+        "target": "es6",
+        "module": "commonjs",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "alwaysStrict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+	    "moduleResolution": "node",
+    },
+    "include": [
+        "./src/**/*",
+        "package.json",
+    ]
+}
