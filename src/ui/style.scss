@@ -716,7 +716,7 @@ label {
     z-index: 1000;      /* 保证其位于其他元素之上 */
     background-color: #f8f8f8; /* 背景色 */
     border: 1px solid #ccc;    /* 边框 */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影以突出悬浮效果 */
+    /*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  添加阴影以突出悬浮效果 */
     border-radius: 8px;       /* 圆角边框 */
     overflow: hidden;         /* 防止内容溢出 */
 }

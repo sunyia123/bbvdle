@@ -4,3 +4,5 @@ dist/bundle.js
 dist/test_batch.png
 src/model/graghs.ts
 src/ui/style.css
+dist/bundle.js
+src/ui/style.css

@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Select the input block when we load the page
     svgData.input.select();
 
-    //task open
+    //click task title to open
     const taskTitle = document.getElementById("taskTitle");
     if (taskTitle) {
         taskTitle.addEventListener("click", () => {
